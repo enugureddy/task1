@@ -1,18 +1,12 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "http": "^0.0.1-security",
-    "init": "^0.1.2",
-    "path": "^0.12.7",
-    "socket.io": "^4.4.1"
-  },
+  "name": "task1",
+  "version": "1.0.0",
+  "description": "chatbox",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "name": "chatbox",
-  "version": "1.0.0",
-  "description": "socket chatbox",
-  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/enugureddy/task1.git"
@@ -23,5 +17,10 @@
     "url": "https://github.com/enugureddy/task1/issues"
   },
   "homepage": "https://github.com/enugureddy/task1#readme",
-  "devDependencies": {}
+  "dependencies": {
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1"
+  }
 }
